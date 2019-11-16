@@ -1,2 +1,2 @@
-# Simple
+# simple-kitchen
 Food
