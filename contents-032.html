@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="contents.css">
+	<link href="https://fonts.googleapis.com/css?family=Athiti|Pattaya|Kanit&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>ยำ - ยำแซ่บหมูยอ</title>
+	<link rel="icon" href="images/bgs-banner/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<div id="container">
+		<center>
+			<h2>ยำแซ่บหมูยอ</h2>
+			<div class="slideshow-container">
+			
+				<div class="mySlides fade">
+				 
+				  <img id="food" src="images/foods/032-mooyor.png" style="width:100%">
+				 
+				</div>
+				
+				<div  class="mySlides fade">
+				  
+				  <img id="food" src="images/foods/032-mooyor2.png" style="width:100%">
+				
+				</div>
+				
+				<div class="mySlides fade">
+				
+				  <img id="food" src="images/foods/032-mooyor3.png" style="width:100%">
+				  
+				</div>
+				
+				<div style="text-align:center">
+					<span class="dot"></span> 
+				  <span class="dot"></span> 
+				  <span class="dot"></span> 
+				</div></center>	
+				
+				<script>
+					var slideIndex = 0;
+	 
+					 showSlides();
+					 function showSlides() {
+			   var i;
+			   var slides = document.getElementsByClassName("mySlides");
+			   var dots = document.getElementsByClassName("dot");
+			   for (i = 0; i < slides.length; i++) {
+			 slides[i].style.display = "none";  
+												   }
+			   slideIndex++;
+			   if (slideIndex > slides.length) {slideIndex = 1}    
+			   for (i = 0; i < dots.length; i++) {
+			 dots[i].className = dots[i].className.replace(" active", "");
+												   }
+			   slides[slideIndex-1].style.display = "block";  
+			   dots[slideIndex-1].className += " active";
+			   setTimeout(showSlides, 3000);
+													 }				
+			 </script></br>
+			 
+		<ul class="heads">
+			<h3>ส่วนผสม</h3>
+			<ol>
+				<li class="lists">หมูยอ1 แท่ง</li>
+				<li class="lists">เห็ดออรินจิหั่น1 ถ้วยเล็ก</li>
+				<li class="lists">ต้นหอมหั่นท่อน2 ต้น</li>
+				<li class="lists">พริกชี้ฟ้าโขลกหยาบ8-10 เม็ด</li>
+				<li class="lists">น้ำกระเทียมดอง1 ช้อนโต๊ะ</li>
+				<li class="lists">น้ำตาลปิ๊บ1/2 ช้อนโต๊ะ</li>
+				<li class="lists">น้ำมะนาว3 ช้อนโต๊ะ</li>
+				<li class="lists">น้ำปลา2 ช้อนโต๊ะ</li>
+				<li class="lists">ผงชูรสตามชอบ</li>
+			</ol>
+
+		</ul>
+		</br>
+		<ul class="heads">
+			<h3>วิธีทำ</h3>
+			<span>เวลาเตรียมส่วนผสม: 10 นาที</span>
+			</br><span>เวลาปรุงอาหาร: 5 นาที</span>
+
+			<ol></br>
+				<li class="lists">นำเห็ดออรินจิที่หั่นไปลวกในน้ำเดือด ตักขึ้นสะเด็ดน้ำแยกพักไว้</li>
+				<li class="lists">นำหมูยอมาหั่นชิ้นตามชอบ ของเราหั่นเป็นแผ่นๆ พื้นที่ได้สัมผัสกับน้ำยำทุกด้าน
+					เพิ่มความอร่อย นำไปลวกผ่านน้ำเดือด 1 นาที ตักขึ้นสะเด็ดน้ำแยกพักไว้</li>
+				<li class="lists">เริ่มปรุงน้ำยำ นำพริกที่โขลกไว้ลงชามผสม ตามด้วยน้ำตาลปิ๊บและน้ำปลา
+					คนให้น้ำตาลละลายจนหมด ตามด้วยน้ำมะนาวและน้ำกระเทียมดอง ผงชูรส <br>(อันนี้ตามชอบของเราเลย
+					จะไม่ใส่ก็ได้)</li>
+				<li class="lists">ชิมรสชาติ เผ็ด เปรี้ยว หวาน เค็ม แล้วแต่ชอบ
+					จากนั้นใส่ต้นหอมหั่นท่อนลงไปเคล้าอย่างเบามือ</li>
+				<li class="lists">จัดใส่จานพร้อมเสิร์ฟ อร่อยแซ่บมาก</li>
+			</ol>
+		</ul>
+		<div id="credits"><span id="thanks">ขอบคุณข้อมูลสูตรอาหารนี้จาก</span></br>
+			<a href="https://www.wongnai.com/recipes/ugc/2c6f6680dded443abf11fa4600606253?ref=ct"><img id="credit-pic"
+					src="images/bgs-banner/wongnai-credit.png" alt="wongnai-credit"></div></a>
+		</br>
+		</br>
+		</br>
+		<center><a id="homepage" href="index.html">กลับไปหน้าแรก</a></center>
+	</div>
+</body>
+
+</html>

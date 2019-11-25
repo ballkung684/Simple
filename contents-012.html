@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="contents.css">
+	<link href="https://fonts.googleapis.com/css?family=Athiti|Pattaya|Kanit&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>ต้ม - สุกี้น้ำดำ</title>
+	<link rel="icon" href="images/bgs-banner/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<div id="container">
+			<center>
+					<h2>สุกี้น้ำดำ</h2>
+		
+
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/012-suki.png" style="width:100%">
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/012-suki2.png" style="width:100%">
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/012-suki3.png" style="width:100%">
+
+				</div>
+
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+		</center>
+
+
+		<script>
+			var slideIndex = 0;
+
+			showSlides();
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) { slideIndex = 1 }
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex - 1].style.display = "block";
+				dots[slideIndex - 1].className += " active";
+				setTimeout(showSlides, 3000);
+			}				
+		</script></br>
+
+		<ul class="heads">
+			<h3>ส่วนผสม</h3>
+			<ol>
+				<li class="lists">คนอร์ ซุปรสหมูก้อน 1 ก้อน</li>
+				<li class="lists">โชยุ 4 ช้อนโต๊ะ</li>
+				<li class="lists">มิริน 3 ช้อนโต๊ะ</li>
+				<li class="lists">สาเก 3 ช้อนโต๊ะ</li>
+				<li class="lists">น้ำตาลทราย 3 ช้อนโต๊ะ</li>
+				<li class="lists">หอมหัวใหญ่ หั่นเสี้ยว 1 หัว</li>
+				<li class="lists">ผักกาดขาว ตามชอบ</li>
+				<li class="lists">ต้นหอมญี่ปุ่น ตามชอบ</li>
+				<li class="lists">เห็ดหอมญี่ปุ่น ตามชอบ</li>
+				<li class="lists">แครอท ตามชอบ</li>
+				<li class="lists">เห็ดออรินจิ ตามชอบ</li>
+				<li class="lists">เห็ดเข็มทอง ตามชอบ</li>
+				<li class="lists">ข้าวโพดอ่อน ตามชอบ</li>
+				<li class="lists">เต้าหู้ย่าง 1 ถาด</li>
+				<li class="lists">เนื้อหมูคุโรบูตะสไลซ์ 250 กรัม</li>
+				<li class="lists">ไข่ไก่ออร์แกนิก 1 ฟอง</li>
+			</ol>
+
+		</ul>
+		</br>
+		<ul class="heads">
+			<h3>วิธีทำ</h3>
+
+
+			<ol>
+				<li class="lists">ทำน้ำซุป
+					ตั้งหม้อบนเตา ใส่หอมหัวใหญ่ลงไปผัดให้ขึ้นสี แล้วใส่น้ำเปล่าลงไป
+					เมื่อน้ำเดือด ใส่ คนอร์ ซุปรสหมูก้อน ลงไปเพื่อความหอมหวาน
+					ปรุงรสด้วย โชยุ มิริน สาเก และน้ำตาลทราย คนให้เข้ากัน
+					ใส่หอมหัวใหญ่ลงไปผัดให้ขึ้นสี
+					เมื่อน้ำเดือด ใส่ คนอร์ ซุปรสหมูก้อน ลงไปเพื่อความหอมหวาน</li>
+				<li class="lists">ใส่เครื่อง
+					จัดเครื่องสุกี้ เช่น ผักกาดขาว ต้นหอมญี่ปุ่น เห็ดหอมญี่ปุ่น แครอท เห็ดออรินจิ
+					เห็ดเข็มทอง ข้าวโพดอ่อน เต้าหู้ย่าง เนื้อหมูคุโรบูตะสไลซ์ หรืออื่น ๆ ตามชอบ ลงในหม้อ
+					จัดเครื่องสุกี้ลงในหม้อ
+					ต้ม เนื้อหมูคุโรบูตะสไลซ์ เลย!</li>
+				<li class="lists"> จัดเสิร์ฟ
+					ตอกไข่ออร์แกนิคใส่ถ้วย ตีให้เข้ากัน ใช้สำหรับจิ้มเนื้อหมูก่อนรับประทาน เท่านี้ก็พร้อมอร่อย! </li>
+			</ol>
+		</ul>
+		<div id="credits"><span id="thanks">ขอบคุณข้อมูลสูตรอาหารนี้จาก</span></br>
+			<a href="https://www.wongnai.com/recipes/ugc/942f2886101e44c3b9ce64237a760757"><img id="credit-pic"
+					src="images/bgs-banner/wongnai-credit.png" alt="wongnai-credit"></div></a>
+		</br>
+		</br>
+		</br>
+		<center><a id="homepage" href="index.html">กลับไปหน้าแรก</a></center>
+	</div>
+</body>
+
+</html>

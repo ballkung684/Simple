@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="contents.css">
+	<link href="https://fonts.googleapis.com/css?family=Athiti|Pattaya|Kanit&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>ต้ม - สปาเก็ตตี้ผัดซอส</title>
+	<link rel="icon" href="images/bgs-banner/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<div id="container">
+		<center>
+			<h2>สปาเก็ตตี้ผัดซอส</h2>
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/023-spagetti.png" style="width:100%">
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/023-spagetti2.png" style="width:100%">
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/023-spagetti3.png" style="width:100%">
+
+				</div>
+
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+		</center>
+
+		<script>
+			var slideIndex = 0;
+
+			showSlides();
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) { slideIndex = 1 }
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex - 1].style.display = "block";
+				dots[slideIndex - 1].className += " active";
+				setTimeout(showSlides, 3000);
+			}				
+		</script></br>
+		<ul class="heads">
+			<h3>ส่วนผสม</h3>
+			<ol>
+				<li class="lists">เส้นสปาเกตตี้</li>
+				<li class="lists">มะเขือเทศหั่นเต๋า</li>
+				<li class="lists">ซอสมะเขือเทศ</li>
+				<li class="lists">หมูสับ</li>
+				<li class="lists">ผักชีสำหรับตกแต่ง</li>
+			</ol>
+
+		</ul>
+		</br>
+		<ul class="heads">
+			<h3>วิธีทำ</h3>
+
+			<ol></br>
+				<li class="lists">ลวกเส้นสปาเกตตี้ให้สุกนิ่ม ตักพักไว้</li>
+				<li class="lists">นำหมูสับลงไปรวนกับน้ำเปล่าเล็กน้อย</li>
+				<li class="lists">ใส่มะเขือเทศหั่นเต๋าลงไปผัดให้เข้ากัน</li>
+				<li class="lists">ใส่ซอสมะเขือเทศลงไป</li>
+				<li class="lists">คลุกเคล้าให้ส่วนผสมเข้ากัน เติมน้ำเล็กน้อย จากนั้นเคี่ยวจนน้ำซอสหนืด</li>
+				<li class="lists">ตักราดบนสปาเกตตี้ที่เตรียมไว้ ตกแต่งด้วยผักชี</li>
+			</ol>
+		</ul>
+		<div id="credits"><span id="thanks">ขอบคุณข้อมูลสูตรอาหารนี้จาก</span></br>
+			<a
+				href="https://www.archanaskitchen.com/spaghetti-pasta-recipe-in-creamy-tomato-sauce-kids-recipes-made-with-del-monte"><img
+					id="credit-pic" src="images/bgs-banner/spice-credit.png" alt="spice-credit"></div></a>
+		</br>
+		</br>
+		</br>
+		<center><a id="homepage" href="index.html">กลับไปหน้าแรก</a></center>
+	</div>
+</body>
+
+</html>

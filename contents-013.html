@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="contents.css">
+	<link href="https://fonts.googleapis.com/css?family=Athiti|Pattaya|Kanit&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>ต้ม - ต้มยำกุ้งราเมน</title>
+	<link rel="icon" href="images/bgs-banner/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<div id="container">
+		<center>
+			<h2>ต้มยำกุ้งราเมน</h2>
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/013-tomyamgung-ramen.png" style="width:100%">
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/013-tomyamgung-ramen2.png" style="width:100%">
+
+				</div>
+
+				<div class="mySlides fade">
+
+					<img id="food" src="images/foods/013-tomyamgung-ramen3.png" style="width:100%">
+
+				</div>
+
+				<div style="text-align:center">
+					<span class="dot"></span>
+					<span class="dot"></span>
+					<span class="dot"></span>
+				</div>
+		</center>
+
+
+		<script>
+			var slideIndex = 0;
+
+			showSlides();
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) { slideIndex = 1 }
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex - 1].style.display = "block";
+				dots[slideIndex - 1].className += " active";
+				setTimeout(showSlides, 3000);
+			}				
+		</script></br>
+		<ul class="heads">
+			<h3>ส่วนผสม</h3>
+			<ol>
+				<li class="lists">เส้นราเมน 80 กรัม</li>
+				<li class="lists">น้ำเปล่า 500 ml.</li>
+				<li class="lists">ไข่ต้มยางมะตูม 1 ฟอง</li>
+				<li class="lists">ข่า ตะไคร้ ใบมะกรูดเล็กน้อย</li>
+				<li class="lists">พริกขี้หนู 3 เม็ด</li>
+				<li class="lists">เห็ดนางฟ้า 30 กรัม</li>
+				<li class="lists">เห็ดเข็มทอง 25 กรัม</li>
+				<li class="lists">เห็ดชิเมจิ 25 กรัม</li>
+				<li class="lists">น้ำตาลทราย 2 ช้อนชา</li>
+				<li class="lists">น้ำปลา 3 ช้อนโต๊ะ</li>
+				<li class="lists">น้ำมะนาว 3 ช้อนโต๊ะ</li>
+				<li class="lists">กะทิ 50 ml.</li>
+				<li class="lists">น้ำพริกเผา 1 ช้อนโต๊ะ</li>
+				<li class="lists">มันกุ้ง1 ช้อนโต๊ะ</li>
+				<li class="lists">ผักชีเล็กน้อย</li>
+			</ol>
+
+		</ul>
+		</br>
+		<ul class="heads">
+			<h3>วิธีทำ</h3>
+
+			<ol></br>
+				<li class="lists">เตรียมวัตถุดิบทั้งหมด</li>
+				<li class="lists">ใส่น้ำเปล่าลงในหม้อหุงข้าว รอเริ่มเดือด ใส่ข่า ตะไคร้ ใบมะกรูด</li>
+				<li class="lists">ใส่เส้นราเมน รอเดือด</li>
+				<li class="lists">ใส่เห็ดนางฟ้า เห็ดเข็มทอง เห็ดชิเมจิ</li>
+				<li class="lists">ปรุงรสด้วย น้ำตาลทราย น้ำปลา น้ำพริกเผา มันกุ้ง คนให้เข้ากัน</li>
+				<li class="lists">ใส่กุ้งลงไป</li>
+				<li class="lists">ปิดไฟ ดึงปลั๊กออก ใส่น้ำมะนาว</li>
+				<li class="lists">ใส่กะทิ คนให้เข้ากัน</li>
+				<li class="lists">จัดใส่ชาม ใส่ไข่ยางมะตูม โรยหน้าด้วยผักชี พร้อมอร่อย </li>
+			</ol>
+		</ul>
+		<div id="credits"><span id="thanks">ขอบคุณข้อมูลสูตรอาหารนี้จาก</span></br>
+			<a href="https://www.wongnai.com/recipes/ugc/b308f338d63f4799a5de177d1485502c"><img id="credit-pic"
+					src="images/bgs-banner/wongnai-credit.png" alt="wongnai-credit"></div></a>
+		</br>
+		</br>
+		</br>
+		<center><a id="homepage" href="index.html">กลับไปหน้าแรก</a></center>
+	</div>
+</body>
+
+</html>
